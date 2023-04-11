@@ -22,3 +22,10 @@ def greetings_function(name,age):
 name = input('Enter your name: ')
 age = input('Enter your age: ')
 greetings_function(name,age)
+# Using the return statement in python
+def my_function(num1,num2):
+    return num1+num2
+
+num1 = int(input('Enter first number: '))
+num2 = int(input('Enter the second number: '))
+print(my_function(num1,num2))
