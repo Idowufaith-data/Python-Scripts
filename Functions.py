@@ -5,4 +5,4 @@ def greetings_function(name):
     print('Welcome', name)
 
 # Function call
-greetings_function('Faith')
+greetings_function(10)
